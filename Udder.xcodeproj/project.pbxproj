@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B326C00B2ABF49180003452B /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B326C00A2ABF49180003452B /* ItemModel.swift */; };
 		BC62CE392ABEE9A900D49809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC62CE382ABEE9A900D49809 /* AppDelegate.swift */; };
 		BC62CE3B2ABEE9A900D49809 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC62CE3A2ABEE9A900D49809 /* SceneDelegate.swift */; };
 		BC62CE3D2ABEE9A900D49809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC62CE3C2ABEE9A900D49809 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B326C00A2ABF49180003452B /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		BC62CE352ABEE9A900D49809 /* Udder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Udder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC62CE382ABEE9A900D49809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC62CE3A2ABEE9A900D49809 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				BC62CE412ABEE9AB00D49809 /* Assets.xcassets */,
 				BC62CE432ABEE9AB00D49809 /* LaunchScreen.storyboard */,
 				BC62CE462ABEE9AB00D49809 /* Info.plist */,
+				B326C00A2ABF49180003452B /* ItemModel.swift */,
 			);
 			path = Udder;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				BC62CE3D2ABEE9A900D49809 /* ViewController.swift in Sources */,
 				BC62CE392ABEE9A900D49809 /* AppDelegate.swift in Sources */,
+				B326C00B2ABF49180003452B /* ItemModel.swift in Sources */,
 				BC62CE3B2ABEE9A900D49809 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A89P8LLWX2;
+				DEVELOPMENT_TEAM = J64YT8BYXX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Udder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,7 +304,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.austinxu.Udder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elenya.Udder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,7 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A89P8LLWX2;
+				DEVELOPMENT_TEAM = J64YT8BYXX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Udder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.austinxu.Udder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elenya.Udder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
